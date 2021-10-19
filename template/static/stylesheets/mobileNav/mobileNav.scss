@@ -1,0 +1,44 @@
+.header__mobileNav {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 99;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #121026;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .header__navItem--active {
+        opacity: 0.7;
+    }
+
+    &Close {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 2.5rem;
+
+        position: absolute;
+
+        top: 6%;
+        right: 10%;
+    }
+
+}
+
+.header__mobileNav.active {
+    display: flex;
+}

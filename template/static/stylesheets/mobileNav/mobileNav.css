@@ -1,0 +1,53 @@
+.header__mobileNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #121026;
+}
+
+.header__mobileNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.header__mobileNav .header__navItem--active {
+  opacity: 0.7;
+}
+
+.header__mobileNavClose {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 6%;
+  right: 10%;
+}
+
+.header__mobileNav.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=mobileNav.css.map */

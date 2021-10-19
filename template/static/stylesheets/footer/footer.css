@@ -1,0 +1,48 @@
+.footer {
+  margin-top: 17rem;
+  background: #121026;
+  padding: 4.8rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    margin-top: 10rem;
+  }
+}
+
+.footer__email {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer__email:hover {
+  text-decoration: underline;
+}
+
+.footer__socialIcons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+}
+
+.footer__socialIconItem img {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.footer__socialIconItem:hover img {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=footer.css.map */
